@@ -1,0 +1,21 @@
+#flask,mongodb
+
+
+1. bank
+    api/createuser
+        1.name,address,phone ,city state
+        2.json document
+        #account no: random,id other
+        3.store it into mongodb
+    api/getuser get
+        1.username
+         retrive info from mongodb and return
+         give it  back 200 status code
+    api/update_record
+        1.account_or_username
+        #filter the record or get the speific record forom db
+        3.update new values
+        4.store back to db
+    api/delete/user
+        #remove record from db
+    
